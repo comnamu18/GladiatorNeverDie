@@ -1,0 +1,3 @@
+./New Unity Project (2)/Assets/
+./New Unity Project (2)/Library/
+./New Unity Project (2)/Logs/
