@@ -22,8 +22,7 @@ public class Move : MonoBehaviour
         float zz = Input.GetAxisRaw("Horizontal");
         lookDirection = xx * Vector3.forward + zz * Vector3.right;
 
-
-       transform.rotation = Quaternion.LookRotation(lookDirection);
+        
 
         if (Input.GetKey(KeyCode.LeftArrow))
         {

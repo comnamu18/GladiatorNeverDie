@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\animat.cs" />
      <Compile Include="Assets\cameramove.cs" />
+     <Compile Include="Assets\collision.cs" />
      <Compile Include="Assets\EazyCamera\Code\Animation\EzAnimator.cs" />
      <Compile Include="Assets\EazyCamera\Code\Camera\EzCamera.cs" />
      <Compile Include="Assets\EazyCamera\Code\Camera\EzCameraCollider.cs" />
@@ -72,11 +74,13 @@
      <Compile Include="Assets\GameMgr.cs" />
      <Compile Include="Assets\jj.cs" />
      <Compile Include="Assets\kb.cs" />
+     <Compile Include="Assets\RandomMov.cs" />
      <Compile Include="Assets\Script\Move.cs" />
      <Compile Include="Assets\Script\NewBehaviourScript.cs" />
      <Compile Include="Assets\Script\RandomMove.cs" />
      <Compile Include="Assets\time.cs" />
      <Compile Include="Assets\TimerMng.cs" />
+     <None Include="Assets\TS Sounds\Read Me.txt" />
      <None Include="Assets\EazyCamera\README.txt" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/user/Documents/GitHub/GladiatorNeverDie/New Unity Project (2)/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

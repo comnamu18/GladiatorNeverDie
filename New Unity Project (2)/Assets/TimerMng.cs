@@ -10,7 +10,7 @@ public class TimerMng : MonoBehaviour
 
     void Start()
     {
-        time = 0.00f;
+        time = 0f;
     }
 
     private void Update()
