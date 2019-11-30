@@ -35,7 +35,7 @@ public class collision : MonoBehaviour
             m_camera.CopyFrom(r_camera);
             m_camera.enabled = false;
             canv.GetComponent<Canvas>().enabled = true;
-
+            Time.timeScale = 0;
         }
 
     }
